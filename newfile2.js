@@ -64,8 +64,15 @@ let array_1 = [
     [['domarli,', 'passare'], 'buio']
   ];
 
+  let spazio = " "
+
   console.log(array_2);
 
+  let frase = array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_2[4][0][0] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[1][1] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[2][0] + spazio + array_1[2][1] + spazio + array_2[3][0] + spazio + array_2[4][1] + spazio + array_1[0][2];
+
+  console.log(frase);
+
+  /*
   console.log(array_1[0][0]);
   console.log(array_1[1][0]);
   console.log(array_1[0][1]);
@@ -81,5 +88,5 @@ let array_1 = [
   console.log(array_1[2][1])
   console.log(array_2[3][0]);
   console.log(array_2[4][1]);
-  console.log(array_1[0][2]);
+  console.log(array_1[0][2]);*/
 
