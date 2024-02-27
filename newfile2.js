@@ -42,7 +42,7 @@ let moltiplicazione = n1 * n2;
 let divisione = n1 / n2;
 let potenza = n1 ** n2;
 
-alert(`ecco il tuo risultato st***o la somma è ${addizione} la sottrazione ${sottrazione} il prodotto è ${moltiplicazione} il risultato è ${divisione} il risultato è ${potenza}`);
+alert(`ecco il tuo risultato caro la somma è ${addizione} la sottrazione ${sottrazione} il prodotto è ${moltiplicazione} il risultato è ${divisione} il risultato è ${potenza}`);
 alert*/
 
 // es 4
