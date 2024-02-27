@@ -42,7 +42,7 @@ let moltiplicazione = n1 * n2;
 let divisione = n1 / n2;
 let potenza = n1 ** n2;
 
-alert(`ecco il tuo risultato caro la somma è ${addizione} la sottrazione ${sottrazione} il prodotto è ${moltiplicazione} il risultato è ${divisione} il risultato è ${potenza}`);
+alert(`ecco il tuo risultato, la somma è ${addizione} la sottrazione ${sottrazione} il prodotto è ${moltiplicazione} il risultato è ${divisione} il risultato è ${potenza}`);
 alert*/
 
 // es 4
@@ -64,11 +64,13 @@ let array_1 = [
     [['domarli,', 'passare'], 'buio']
   ];
 
-  let spazio = " "
+  /*let spazio = " "*/
 
   console.log(array_2);
 
-  let frase = array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_2[4][0][0] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[1][1] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[2][0] + spazio + array_1[2][1] + spazio + array_2[3][0] + spazio + array_2[4][1] + spazio + array_1[0][2];
+  let frase = `${array_1[0][0]} ${array_1[1][0]} ${array_1[0][1]} ${array_2[4][0][0]} ${array_1[0][0]} ${array_1[1][0]} ${array_1[0][1]} ${array_1[0][1]} ${array_1[1][1]} ${array_1[0][0]} ${array_1[1][0]} ${array_1[0][1]} ${array_1[2][0]} ${array_1[2][1]} ${array_2[3][0]} ${array_2[4][1]} ${array_1[0][2]}`
+
+ /* let frase = array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_2[4][0][0] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[1][1] + spazio + array_1[0][0] + spazio + array_1[1][0] + spazio + array_1[0][1] + spazio + array_1[2][0] + spazio + array_1[2][1] + spazio + array_2[3][0] + spazio + array_2[4][1] + spazio + array_1[0][2]; */
 
   console.log(frase);
 
